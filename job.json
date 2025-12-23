@@ -1,0 +1,22 @@
+{
+  "job": {
+    "command": "version",
+    "credentials-metadata": [
+      {
+        "type": "git_source",
+        "host": "github.com"
+      }
+    ],
+    "max-updater-run-time": 2700,
+    "package-manager": "docker",
+    "proxy-log-response-body-on-auth-failure": true,
+    "source": {
+      "provider": "github",
+      "repo": "yeikel/reproducer-dependabot-issue-13606",
+      "branch": null,
+      "directory": "/.",
+      "api-endpoint": "https://api.github.com/",
+      "hostname": "github.com"
+    }
+  }
+}
